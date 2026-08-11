@@ -107,7 +107,7 @@ Reuse a task only when its repository, role, and `configurationHash` match and t
 ## Failure and recovery
 
 - Do not leave `DISCOVERY`, `INTERVIEWING`, or `CONFIRMING` through inference or silence.
-- If question cards are unavailable, pause and require Plan mode instead of emitting a bulk form.
+- If native question cards are unavailable, continue with the one-question-at-a-time text fallback instead of requiring Plan mode or emitting a bulk form.
 - On an edited answer, invalidate and revisit only dependent downstream decisions.
 - Reject parameter or configuration-hash drift during resume.
 - Stop writers on conflicting edits and preserve user changes.

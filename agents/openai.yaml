@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Repo Team Delivery"
+  short_description: "Interactive multi-repository team delivery"
+  default_prompt: "Use $cross-repo-team-delivery to interview me one decision at a time, use native question cards when available and text otherwise, advance without separate next messages, confirm the complete configuration, and only then start the repository teams."
